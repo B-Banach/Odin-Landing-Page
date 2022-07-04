@@ -8,6 +8,8 @@
     font-family: 'Times New Roman', Times, sans-serif;
 }
 
+/* HEADER */
+
 header {
     display: flex;
     align-items: center;
@@ -29,6 +31,8 @@ header a {
     font-size: 24px;
     color: #f9faf8
 }
+
+/* MAIN ONE */
 
 .main-one {
     background-color: #1f2937;
@@ -64,4 +68,57 @@ h1 {
     color: #f9faf8;
     font-weight: 1200;
     font-size: 48px;
+}
+
+/* MAIN TWO */
+
+.main-two {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.main-two h2 {
+    margin: 5vh auto;
+}
+
+.main-two div {
+    margin: 0px 10px
+}
+
+.main-two-content-container {
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-two img {
+    max-width: 20vw;
+    border-radius: 10px;
+}
+
+/* MAIN THREE */
+
+.main-three{
+    background-color: #e5e7eb;
+    padding: 10vh;
+}
+
+.quote-container{
+    margin: 10px auto;
+    max-width: 60vw;
+}
+
+.quote-container > div:nth-child(1) {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-container > div:nth-child(2) {
+    font-size: 24px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: end;
 }
