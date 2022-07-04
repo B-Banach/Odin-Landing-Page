@@ -26,12 +26,42 @@ header a {
 }
 
 .logo {
-    font-size: large;
-    font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8
 }
 
 .main-one {
     background-color: #1f2937;
     color: white;
     display: flex;
+    margin: 0px auto;
+}
+
+.main-one div {
+    max-width: 40%;
+    margin: 100px auto
+}
+img {
+    max-width: 100%;
+}
+
+.main-one p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.main-one button {
+    margin: 8px 0px;
+    padding: 6px 16px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h1 {
+    color: #f9faf8;
+    font-weight: 1200;
+    font-size: 48px;
 }
